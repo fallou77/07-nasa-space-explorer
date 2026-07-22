@@ -110,6 +110,20 @@ button:hover {
   flex-direction: column;
 }
 
+.gallery-item h2 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #212121;
+}
+
+.gallery-item p {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #555;
+}
+
 /* Three columns on wider screens */
 @media (min-width: 1000px) {
   .gallery-item {
